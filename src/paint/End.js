@@ -6,7 +6,6 @@ export default function End(){
         <div className="container-fluid" style={{backgroundColor:'lightgrey'}}>
             <div className="container p-5 text-secondary">
                 <div className="row" style={{borderBottom:'0.5px solid grey'}}>
-                    <div className="table-responsive-sm">
                     <div className="col-sm-3 p-3">
                         <h1 className="text-dark"><img src='./Images/logo.jpg' alt="logo" style={{height:'50px',width:'50px'}}/>amiso</h1>
                         <p>Washla customers has a tremendous opportunity to answer the call of logistic.</p>
@@ -54,7 +53,6 @@ export default function End(){
                             <li className="ps-3"><Link><i className="bi bi-instagram"></i></Link></li>
                             <li className="ps-3"><Link><i className="bi bi-linkedin"></i></Link></li>
                         </ul>
-                    </div>
                     </div>
                 </div>
             </div>
