@@ -2,7 +2,16 @@ ul{
     list-style-type: none;
     color:grey;
 }
-li{
+.end{
     text-decoration:none;
     color:grey;
+}
+.End{
+    margin-top:300px;
+}
+@media screen and (max-width:600px){
+    .End{
+        height:1000px;
+        margin-top:1000px;
+    }
 }

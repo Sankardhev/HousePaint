@@ -26,26 +26,24 @@ export default function Trust(){
             </div>
         </div>
         <div className="container-fluid mt-5">
-            <div className="row Trel">
-                <div className="col-sm-5">
-                    <img src="./Images/one.jpg" alt='home'/>
+            <div className="row">
+                <div className="col-sm-6 p-0">
+                    <img src='./Images/one.jpg' alt='one' style={{width:'102%'}}/>
                 </div>
-                <div className="col-sm-7 text-secondary bg-light p-5 Tabs">
-                    <div className="row">
-                        <h6>MAID FOR YOU</h6>
-                        <h1 className="text-dark">A Cleaner Place is a Safer Place.</h1>
-                        <p>Washla cleaning service. We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love.</p>
-                    </div>
-                    <div className="row">
-                        <div className="col-sm-6">
-                            <img src="./Images/pfclean.jpg" alt="pfclean"/>
-                            <h2 className="text-dark">Professional Cleaning</h2>
-                            <p>Housekeeping is responsible for minor security in hotel</p>
+                <div className="col-sm-6 text-secondary bg-light p-5" style={{marginBottom:'-60px',marginTop:'60px',zIndex:'1'}}>
+                    <h6>MAID FOR YOU</h6>
+                    <h1 className='text-dark'>A Cleaner Place is a Safer Place.</h1>
+                    <p>Washla cleaning service. We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love.</p>
+                    <div className='row'>
+                        <div className='col-sm-6'>
+                            <img src='./Images/pfclean.jpg' alt='pfclean'/>
+                            <h4 className='text-dark'>Professional Cleaning</h4>
+                            <p>Housekeeping is responsible for minor security iin hotel.</p>
                         </div>
-                        <div className="col-sm-6">
-                            <img src="./Images/fastclean.jpg" alt="fastclean"/>
-                            <h2 className="text-dark">Fast and efficient</h2>
-                            <p>Both of us take a lot of time ing etting cleaned Clean Home.</p>
+                        <div className='col-sm-6'>
+                            <img src='./Images/fastclean.jpg' alt='fastclean'/>
+                            <h4 className='text-dark'>Fast and efficient</h4>
+                            <p>Both of us take a lot of time in getting cleaned Clean Home.</p>
                         </div>
                     </div>
                 </div>

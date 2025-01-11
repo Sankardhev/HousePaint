@@ -1,12 +1,4 @@
-.Trel{
-    position: relative;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-}
-.Tabs{
-    position: absolute;
-    right:0;
-    bottom:-50px;
+.trust{
+    z-index:1;
+    overflow:visible;
 }

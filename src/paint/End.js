@@ -3,8 +3,8 @@ import './end.css';
 export default function End(){
     return(
         <>
-        <div className="container-fluid" style={{backgroundColor:'lightgrey'}}>
-            <div className="container p-5 text-secondary">
+        <div className="container-fluid End" style={{backgroundColor:'lightgrey'}}>
+            <div className="container pt-5 text-secondary">
                 <div className="row" style={{borderBottom:'0.5px solid grey'}}>
                     <div className="col-sm-3 p-3">
                         <h1 className="text-dark"><img src='./Images/logo.jpg' alt="logo" style={{height:'50px',width:'50px'}}/>amiso</h1>
@@ -37,8 +37,8 @@ export default function End(){
                         <h4 className="text-dark">Our Newsletter</h4>
                         <p>Subscribe to our newsletter to receive the latest news about our services.</p>
                         <div className="input-group">
-                            <input type="email" id="email" name="email" placeholder="Your email address" className="bg-secondary text-dark" style={{width:'150px',border:'none'}}/>
-                            <input type="submit" className="bg-primary rounded text-light" value='SIGN UP' style={{border:'none'}}/>
+                            <input type="email" id="email" name="email" placeholder="Your email address" style={{width:'150px',border:'none'}}/>
+                            <input type="submit" className="bg-primary rounded text-light" value='SIGN UP' style={{border:'none',fontSize:'12px'}}/>
                         </div>
                     </div>
                 </div>
@@ -48,10 +48,10 @@ export default function End(){
                     </div>
                     <div className="col-sm-6">
                         <ul className="d-flex justify-content-between" style={{float:'right'}}>
-                            <li className="ps-3"><Link><i className="bi bi-facebook"></i></Link></li>
-                            <li className="ps-3"><Link><i className="bi bi-twitter"></i></Link></li>
-                            <li className="ps-3"><Link><i className="bi bi-instagram"></i></Link></li>
-                            <li className="ps-3"><Link><i className="bi bi-linkedin"></i></Link></li>
+                            <li className="ps-3"><Link className="end"><i className="bi bi-facebook"></i></Link></li>
+                            <li className="ps-3"><Link className="end"><i className="bi bi-twitter"></i></Link></li>
+                            <li className="ps-3"><Link className="end"><i className="bi bi-instagram"></i></Link></li>
+                            <li className="ps-3"><Link className="end"><i className="bi bi-linkedin"></i></Link></li>
                         </ul>
                     </div>
                 </div>

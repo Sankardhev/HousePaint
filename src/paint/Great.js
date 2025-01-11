@@ -3,9 +3,7 @@ import Team from "./Ourteam";
 export default function Great(){
     return(
         <>
-        <div className="container-fluid" style={{backgroundImage:'url(./Images/three.jpg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
-            
-            <div className="container text-light">
+        <div className="container-fluid text-light" style={{backgroundImage:'url(./Images/three.jpg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
                 <div className="row">
                     <h5 className="text-center" style={{marginTop:'80px'}}>WHY CHOOSE US</h5>
                     <h1 className="text-center text-dark">Our Great Service</h1>
@@ -20,39 +18,39 @@ export default function Great(){
                         </div>
                         
                         {/* <!-- The slideshow/carousel --> */}
-                            <div className="carousel-inner px-5 py-5">
-                                <div className="carousel-item active">
-                                    <div className="d-flex">
-                                        <div className="bg-info me-5" style={{width:'300px'}}>
+                            <div className="carousel-inner p-5">
+                                <div className="carousel-item active p-5">
+                                    <div className="row">
+                                        <div className="col-sm-3 m-4 bg-info" style={{width:'330px'}}>
                                             <img src="./Images/Hclean.jpg" alt="Hclean" className="rounded"/>
                                             <h4>Home Cleaning</h4>
                                             <p>Homes and thoroughly launcher them between usage. We give our teams the accusantium doloremque laudantium.</p>
                                         </div>
-                                        <div className="bg-info me-5" style={{width:'300px'}}>
+                                        <div className="col-sm-3 m-4 bg-info" style={{width:'330px'}}>
                                             <img src="./Images/Wclean.jpg" alt="Wclean" className="rounded"/>
                                             <h4>Windows Cleaning</h4>
                                             <p>We are closely monitoring national, state and local health agencies for the most recent developments.</p>
                                         </div>
-                                        <div className="bg-info me-5" style={{width:'300px'}}>
+                                        <div className="col-sm-3 m-4 bg-info" style={{width:'330px'}}>
                                             <img src="./Images/Oclean.jpg" alt="Oclean" className="rounded"/>
                                             <h4>Office Cleaning</h4>
                                             <p>Follow these tips from the CDC to help prevent the spread of the seasonal flu and respiratory diseases.</p>
                                         </div>
                                     </div>    
                                 </div>
-                                <div className="carousel-item">
-                                    <div className="d-flex">
-                                        <div className="bg-info me-5" style={{width:'300px'}}>
+                                <div className="carousel-item p-5">
+                                    <div className="row">
+                                        <div className="col-sm-3 m-4 bg-info" style={{width:'330px'}}>
                                             <img src="./Images/Hclean.jpg" alt="Hclean" className="rounded"/>
                                             <h4>Home Cleaning</h4>
                                             <p>Homes and thoroughly launcher them between usage. We give our teams the accusantium doloremque laudantium.</p>
                                         </div>
-                                        <div className="bg-info me-5" style={{width:'300px'}}>
+                                        <div className="col-sm-3 m-4 bg-info" style={{width:'330px'}}>
                                             <img src="./Images/Wclean.jpg" alt="Wclean" className="rounded"/>
                                             <h4>Windows Cleaning</h4>
                                             <p>We are closely monitoring national, state and local health agencies for the most recent developments.</p>
                                         </div>
-                                        <div className="bg-info me-5" style={{width:'300px'}}>
+                                        <div className="col-sm-3 m-4 bg-info" style={{width:'330px'}}>
                                             <img src="./Images/Oclean.jpg" alt="Oclean" className="rounded"/>
                                             <h4>Office Cleaning</h4>
                                             <p>Follow these tips from the CDC to help prevent the spread of the seasonal flu and respiratory diseases.</p>
@@ -68,7 +66,6 @@ export default function Great(){
                             </button>
                     </div>
                 </div>
-            </div>
         </div>
         <Team />
         </>
